@@ -37,7 +37,7 @@ Each test has its own `main` function and should be compiled separately. For exa
 
 ```sh
 make
-cc -Wall -Wextra -Werror tests/test_ft_strlen.c libft.a -o test_ft_strlen | /test_ft_strlen
+cc -Wall -Wextra -Werror tests/test_ft_strlen.c libft.a -o test_ft_strlen && ./test_ft_strlen
 ```
 
 Replace `test_ft_strlen.c` with the test you want to run.
